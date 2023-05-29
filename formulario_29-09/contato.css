@@ -1,0 +1,28 @@
+header{
+    background-color: #cf7f72;
+    padding: 20px;
+}
+
+#logo{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+
+
+}
+
+@font-face {
+    font-family:'satisfy' ;
+    src: url('Satisfy-Regular.ttf-BarlowCondensed-Thin.ttf.ttf') format('truetype');
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    transform: translate(-10%, -50);
+    font-size: 35px;
+    font-family: 'satisty';
+
+}
+
