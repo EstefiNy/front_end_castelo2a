@@ -1,28 +1,25 @@
 header{
-    background-color: #cf7f72;
-    padding: 20px;
+ background-color: pink;
+ padding: 5px;
+
 }
 
 #logo{
-    border-radius: 10px;
-    width: 250px;
-    height: 250px;
-
-
-}
+    border-radius: 50px;
+    height: 280px;
+    width: 290px;
+} 
 
 @font-face {
-    font-family:'satisfy' ;
-    src: url('Satisfy-Regular.ttf-BarlowCondensed-Thin.ttf.ttf') format('truetype');
+    font-family:'dancing';
+    src: url('DancingScript-VariableFont_wght.ttf') format('truetype');
 }
 
 .titulo-principal{
     position: absolute;
     top: 13%;
     left: 30%;
-    transform: translate(-10%, -50);
-    font-size: 35px;
-    font-family: 'satisty';
-
+    transform: translate(-49%, -80%);
+    font-size: 50px;
+    font-family: 'dancing';
 }
-
