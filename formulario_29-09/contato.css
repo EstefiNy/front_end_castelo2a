@@ -1,5 +1,5 @@
 header{
- background-color: pink;
+ background-color: #9e5549;
  padding: 5px;
 
 }
@@ -11,8 +11,8 @@ header{
 } 
 
 @font-face {
-    font-family:'dancing';
-    src: url('DancingScript-VariableFont_wght.ttf') format('truetype');
+    font-family:'greatvibes-regular';
+    src: url('GreatVibes-Regular.ttf') format('truetype');
 }
 
 .titulo-principal{
@@ -21,5 +21,27 @@ header{
     left: 30%;
     transform: translate(-49%, -80%);
     font-size: 50px;
-    font-family: 'dancing';
+    font-family: 'greatvibes-regular';
+}
+
+form{
+    margin: 30px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-family: arial;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 50%;
+    width: 50%;
+}
+
+input:placeholder{
+    color: orange;
 }
