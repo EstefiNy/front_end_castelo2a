@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Gerente de Produtos</title>
+
+        <style></style>
+
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <h1>Gerente de Produtos e Listagem</h1>
+
+            <form id="formProduto"> 
+
+                <label>Identificador:</label>
+                <input type="number" id="id" required>
+
+                <label>Nome do produto:</label>
+                <input type="text" id="produtoNome" required>
+
+                <label>Preço do Produto R$:</label>
+                <input type="number" id="produtoPreco" required step="0.01">
+
+                <button type="submit">Cadastrar</button>
+            </form>
+
+            <hr>
+
+            <h2>Lista de produto</h2>
+              
+            <input type="text" id="buscar" placeholder="Buscar nome">
+            <ul id="produtoLista"></ul>
+        </div>
+
+        <script></script>
+
+        <script src="programa.js"></script>
+    </body>
+</html>
